@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="WindowsFormsApplication2.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="srcpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">G:\mp4</Value>
+    </Setting>
+    <Setting Name="dstpath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">C:\Users\mima\Desktop\mp4\mp</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
