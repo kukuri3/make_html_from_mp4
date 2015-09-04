@@ -199,10 +199,14 @@ namespace WindowsFormsApplication1
                 }
 
                 //ファイル名
-                textBox3.AppendText(i.ToString("D5") + " <a href=\"./");
-                textBox3.AppendText(dataGridView2["fn", i].Value.ToString());
-                textBox3.AppendText("\">" + dataGridView2["fn", i].Value.ToString() + "</a><br>\r\n");
-
+                string mp3fn = dataGridView2["fn", i].Value.ToString();
+                string fn_ext=System.IO.Path.GetExtension(mp3fn);
+                if (fn_ext.Contains("mp4"))
+                {
+                    textBox3.AppendText(i.ToString("D5") + " <a href=\"./");
+                    textBox3.AppendText(dataGridView2["fn", i].Value.ToString());
+                    textBox3.AppendText("\">" + dataGridView2["fn", i].Value.ToString() + "</a><br>\r\n");
+                }
             }
             textBox3.AppendText("<br>");
 
